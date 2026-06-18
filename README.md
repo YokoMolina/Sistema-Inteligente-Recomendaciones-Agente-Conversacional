@@ -7,7 +7,7 @@ Este repositorio contiene el desarrollo integral de un sistema de recomendación
 ## Instrucciones de Instalación y Uso
 
 ### 1. Clonar el repositorio y Requisitos
-* **Requisito de Sistema:** Python 3.10 o superior (Desarrollado y testeado en Python 3.10)
+* Desarrollado y testeado en Python 3.10
 
 ```bash
 git clone [https://github.com/YokoMolina/Tipti.git](https://github.com/YokoMolina/Tipti.git)
