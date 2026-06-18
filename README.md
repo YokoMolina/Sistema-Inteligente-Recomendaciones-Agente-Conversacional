@@ -38,6 +38,9 @@ python app.py
 ```
 
 ## Criterios de Diseño:
+El núcleo de este ecosistema inteligente fue desarrollado íntegramente en **Python 3.10**, aprovechando su madurez, estabilidad y el respaldo de su robusto ecosistema de librerías para Inteligencia Artificial y manejo de datos masivos. La fase de experimentación, limpieza de datos y entrenamiento de los modelos se llevó a cabo utilizando **Jupyter Notebooks**, una decisión estratégica que facilitó un flujo de trabajo interactivo, permitiendo visualizar los resultados de las métricas en tiempo real, realizar análisis exploratorios ágiles y documentar paso a paso el comportamiento de los algoritmos antes de su empaquetado final en la aplicación.
+
+A continuación, se detallan las justificaciones técnicas detrás de cada una de las tres etapas incrementales del proyecto, orientadas a garantizar la eficiencia computacional y una experiencia de usuario óptima:
 
 ### Etapa 1: Modelo Tabular de Ranking (`XGBRanker`)
 * Se descartó el uso de una clasificación binaria tradicional (`XGBClassifier`) en favor de un enfoque de aprendizaje para ordenamiento (*Learning to Rank*) utilizando **`XGBRanker`** con la optimización de la métrica **$NDCG@10$** (Normalized Discounted Cumulative Gain).
